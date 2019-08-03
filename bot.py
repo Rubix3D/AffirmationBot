@@ -7,8 +7,6 @@ user_pass = '' #Bot Password
 c_id = '' #Bot Client ID
 c_secret = '' #Bot Client Secret
 
-sub = '' #Subreddit you want the bot to run in
-
 reddit = praw.Reddit(
     username = user,
     password = user_pass,
