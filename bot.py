@@ -27,7 +27,7 @@ def main():
 
     reddit.redditor('mc-lebowski').message('Daily Affirmation', pickAF) #Sends you that Affirmation in a PM
 
-    print('Sleeping for random amount of time: ' + randomTime) #Prints the time to console, so you can see when the next Affirmation will be sent. You can remove this line completely if you do not want to know when it will be sent.
+    print('Sleeping for random amount of time: ' + str(randomTime)) #Prints the time to console, so you can see when the next Affirmation will be sent. You can remove this line completely if you do not want to know when it will be sent.
     sleep(randomTime) #Bot sleeps for the randomly chosen amount of time
 
 if __name__ == '__main__':
