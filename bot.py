@@ -1,6 +1,7 @@
 import praw
 import time
 import prawcore
+import random
 
 user = '' #Bot Username
 user_pass = '' #Bot Password
